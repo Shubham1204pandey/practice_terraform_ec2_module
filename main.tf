@@ -10,6 +10,6 @@ apt update
 apt install nginx -y 
 systemctl enable --now nginx
 rm -rf /var/www/html/*
-echo "<h1> HELLO WORLD </h1>" > /var/www/html/index.html
+echo "<h1> HELLO </h1>" > /var/www/html/index.html
 userdata
 }
